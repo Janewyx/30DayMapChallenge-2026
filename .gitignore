@@ -1,13 +1,2 @@
-.venv/
-.mplconfig/
-.ipynb_checkpoints/
-__pycache__/
-*.py[cod]
 .DS_Store
-
-# Credentials and local configuration
 secrets/
-*.env
-.env*
-
-# Local recovery copies
