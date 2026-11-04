@@ -1,0 +1,657 @@
+store_name,city_name,state_id,lat,lng
+Hoover,Hoover,AL,33.379,-86.803
+Birmingham,Birmingham,AL,33.446,-86.732
+Huntsville,Huntsville,AL,34.74,-86.665
+Gilbert (SanTan),Gilbert,AZ,33.306,-111.752
+Queen Creek,Queen Creek,AZ,33.256,-111.639
+Mesa,Mesa,AZ,33.381,-111.787
+Goodyear,Goodyear,AZ,33.465,-112.375
+Ahwatukee,Phoenix,AZ,33.305,-111.995
+Paradise Valley,Phoenix,AZ,33.583,-111.979
+Phoenix - Town & Country,Phoenix,AZ,33.507,-112.038
+Phoenix,Phoenix,AZ,33.68,-111.977
+Prescott,Prescott,AZ,34.549,-112.405
+Glendale,Glendale,AZ,33.64,-112.231
+N Scottsdale,Scottsdale,AZ,33.636,-111.917
+Scottsdale,Scottsdale,AZ,33.529,-111.927
+Chandler,Chandler,AZ,33.249,-111.841
+Oro Valley,Oro Valley,AZ,32.35,-110.973
+Surprise,Surprise,AZ,33.651,-112.368
+ASU,Tempe,AZ,33.422,-111.925
+Tempe,Tempe,AZ,33.362,-111.911
+Tucson - Campbell & Limberlost,Tucson,AZ,32.283,-110.945
+Tucson - Crossroads,Tucson,AZ,32.25,-110.891
+Tucson,Tucson,AZ,32.221,-110.94
+Tucson,Tucson,AZ,32.237,-110.859
+Little Rock,Little Rock,AR,34.748,-92.402
+Aliso Viejo,Aliso Viejo,CA,33.577,-117.725
+Agoura Hills,Agoura Hills,CA,34.146,-118.757
+Brentwood,Brentwood,CA,37.961,-121.75
+Arroyo Grande,Arroyo Grande,CA,35.126,-120.594
+Anaheim Hills,Anaheim Hills,CA,33.856,-117.771
+Burbank,Burbank,CA,34.175,-118.299
+Bakersfield,Bakersfield,CA,35.355,-119.093
+Alameda,Alameda,CA,37.758,-122.251
+Brea,Brea,CA,33.91,-117.865
+Berkeley,Berkeley,CA,37.872,-122.273
+Camarillo,Camarillo,CA,34.22,-119.053
+Calabasas,Calabasas,CA,34.156,-118.645
+Campbell,Campbell,CA,37.288,-121.933
+Castro Valley,Castro Valley,CA,37.685,-122.073
+Capitola,Capitola,CA,36.977,-121.971
+Carlsbad,Carlsbad,CA,33.127,-117.255
+Cathedral City,Cathedral City,CA,33.79,-116.483
+Cerritos,Cerritos,CA,33.869,-118.058
+Chico,Chico,CA,39.76,-121.847
+Chatsworth,Chatsworth,CA,34.258,-118.579
+Chino Hills,Chino Hills,CA,34.001,-117.732
+Claremont,Claremont,CA,34.107,-117.722
+Chula Vista,Chula Vista,CA,32.651,-116.97
+Concord,Concord,CA,37.978,-122.058
+Concord,Concord,CA,37.937,-122.025
+Clovis,Clovis,CA,36.849,-119.728
+Corona,Corona,CA,33.812,-117.507
+Culver City,Culver City,CA,33.988,-118.393
+Culver City,Culver City,CA,34.025,-118.393
+Costa Mesa,Costa Mesa,CA,33.653,-117.919
+Costa Mesa,Costa Mesa,CA,33.637,-117.925
+Cypress (Rossmoor),Cypress,CA,33.804,-118.041
+Daly City,Daly City,CA,37.7,-122.482
+Danville,Danville,CA,37.823,-122.003
+Davis,Davis,CA,38.547,-121.761
+Eagle Rock,Eagle Rock,CA,34.139,-118.2
+El Cerrito,El Cerrito,CA,37.899,-122.299
+Elk Grove,Elk Grove,CA,38.407,-121.42
+Emeryville,Emeryville,CA,37.837,-122.294
+Encino,Encino,CA,34.172,-118.518
+Encinitas,Encinitas,CA,33.048,-117.259
+Escondido,Escondido,CA,33.1,-117.074
+Fair Oaks,Fair Oaks,CA,38.663,-121.274
+Fairfield,Fairfield,CA,38.264,-122.053
+Glendale,Glendale,CA,34.159,-118.255
+Fremont,Fremont,CA,37.544,-121.986
+Folsom,Folsom,CA,38.672,-121.156
+Fresno,Fresno,CA,36.858,-119.783
+Goleta,Goleta,CA,34.441,-119.825
+Granada Hills,Granada Hills,CA,34.273,-118.502
+Larkspur,Greenbrae,CA,37.938,-122.515
+Hermosa Beach,Hermosa Beach,CA,33.864,-118.392
+Huntington Beach - Brookhurst,Huntington Beach,CA,33.651,-117.955
+Huntington Beach,Huntington Beach,CA,33.693,-117.993
+Huntington Harbour,Huntington Beach,CA,33.718,-118.05
+Irvine -  Walnut Village Ctr,Irvine,CA,33.706,-117.788
+Irvine - University Ctr,Irvine,CA,33.65,-117.838
+Irvine - Woodbury Town Center,Irvine,CA,33.7,-117.741
+La Habra,La Habra,CA,33.919,-117.97
+La Canada,La Canada,CA,34.2,-118.189
+La Mesa,La Mesa,CA,32.779,-117.006
+La Jolla,La Jolla,CA,32.866,-117.232
+La Quinta,La Quinta,CA,33.712,-116.294
+La Verne,La Verne,CA,34.111,-117.761
+Ladera Ranch,Ladera Ranch,CA,33.563,-117.628
+Lafayette,Lafayette,CA,37.89,-122.127
+Laguna Hills,Laguna Hills,CA,33.61,-117.703
+Laguna Niguel - Ocean Ranch,Laguna Niguel,CA,33.493,-117.697
+Livermore,Livermore,CA,37.68,-121.781
+Leucadia,Leucadia,CA,33.07,-117.264
+Hollywood,Los Angeles,CA,34.1,-118.326
+Los Angeles - 3rd & Fairfax,Los Angeles,CA,34.072,-118.362
+Los Angeles - Burton Way,Los Angeles,CA,34.071,-118.377
+Los Angeles,Los Angeles,CA,34.069,-118.344
+Olympic Blvd,Los Angeles,CA,34.034,-118.449
+Silver Lake,Los Angeles,CA,34.108,-118.272
+Sunset Blvd,Los Angeles,CA,34.098,-118.365
+USC Village,Los Angeles,CA,34.026,-118.284
+West Los Angeles - Sepulveda,Los Angeles,CA,34.02,-118.422
+West Los Angeles,Los Angeles,CA,34.03,-118.421
+Westwood,Los Angeles,CA,34.062,-118.444
+Los Altos,Los Altos,CA,37.338,-122.068
+Long Beach - Bellflower Blvd,Long Beach,CA,33.797,-118.123
+Long Beach - Bixby Knolls,Long Beach,CA,33.836,-118.189
+Long Beach - PCH,Long Beach,CA,33.757,-118.109
+Los Gatos,Los Gatos,CA,37.244,-121.958
+Marina,Marina,CA,36.665,-121.811
+Manhattan Beach - Rosecrans Blvd,Manhattan Beach,CA,33.901,-118.38
+Manhattan Beach Blvd,Manhattan Beach,CA,33.888,-118.38
+Marina Del Rey,Marina Del Rey,CA,33.98,-118.441
+Menlo Park,Menlo Park,CA,37.451,-122.183
+Milpitas,Milpitas,CA,37.412,-121.9
+Millbrae,Millbrae,CA,37.604,-122.396
+Monrovia,Monrovia,CA,34.138,-118.012
+Mission Viejo,Mission Viejo,CA,33.593,-117.659
+Monterey,Monterey,CA,36.597,-121.894
+Modesto,Modesto,CA,37.688,-121.049
+Montrose,Montrose,CA,34.207,-118.233
+Morgan Hill,Morgan Hill,CA,37.132,-121.638
+Mountain View,Mountain View,CA,37.401,-122.108
+Murrieta,Murrieta,CA,33.554,-117.176
+Novato,Novato,CA,38.112,-122.568
+Napa,Napa,CA,38.323,-122.306
+Newport Beach,Newport Beach,CA,33.569,-117.831
+Northridge,Northridge,CA,34.238,-118.536
+North Hollywood,North Hollywood,CA,34.182,-118.394
+Oakland - Lakeshore,Oakland,CA,37.81,-122.244
+Oakland - Rockridge,Oakland,CA,37.846,-122.252
+Oceanside,Oceanside,CA,33.183,-117.331
+Mall of Orange,Orange,CA,33.823,-117.836
+Pacific Grove,Pacific Grove,CA,36.606,-121.922
+Palm Desert,Palm Desert,CA,33.727,-116.398
+Paso Robles,Paso Robles,CA,35.646,-120.658
+Hastings Ranch,Pasadena,CA,34.154,-118.078
+Pasadena - S Lake Ave,Pasadena,CA,34.14,-118.132
+Pasadena,Pasadena,CA,34.135,-118.147
+Pasadena (East),Pasadena,CA,34.128,-118.09
+Palo Alto,Palo Alto,CA,37.439,-122.159
+Petaluma,Petaluma,CA,38.249,-122.629
+Palmdale,Palmdale,CA,34.601,-118.148
+Pleasanton,Pleasanton,CA,37.697,-121.877
+Pinole,Pinole,CA,37.995,-122.286
+Poway,Poway,CA,32.958,-117.035
+Rancho Cucamonga,Rancho Cucamonga,CA,34.138,-117.574
+Rancho Palos Verdes - S. Western Ave.,Rancho Palos Verdes,CA,33.756,-118.31
+Rancho Palos Verdes,Rancho Palos Verdes,CA,33.749,-118.407
+Redlands,Redlands,CA,34.061,-117.181
+Redding,Redding,CA,40.592,-122.357
+Rancho Santa Margarita,Rancho Santa Margarita,CA,33.643,-117.596
+Roseville - North,Roseville,CA,38.788,-121.281
+Roseville,Roseville,CA,38.746,-121.273
+Riverbank,Riverbank,CA,37.712,-120.96
+Rocklin,Rocklin,CA,38.803,-121.209
+Redondo Beach,Redondo Bch.,CA,33.819,-118.386
+Riverside,Riverside,CA,33.956,-117.388
+South Pasadena,S. Pasadena,CA,34.115,-118.163
+Sacramento,Sacramento,CA,38.56,-121.445
+Sacramento,Sacramento,CA,38.618,-121.4
+San Carlos,San Carlos,CA,37.497,-122.248
+Del Mar,San Diego,CA,32.961,-117.191
+Mission Valley,San Diego,CA,32.766,-117.155
+San Diego - Carmel Mtn Ranch,San Diego,CA,32.982,-117.075
+San Diego - Clairemont,San Diego,CA,32.829,-117.204
+San Diego - Hillcrest,San Diego,CA,32.749,-117.153
+San Diego - Pacific Beach,San Diego,CA,32.801,-117.241
+San Diego - Point Loma,San Diego,CA,32.736,-117.217
+San Diego - SDSU,San Diego,CA,32.772,-117.07
+Scripps Ranch,San Diego,CA,32.914,-117.115
+San Clemente,San Clemente,CA,33.458,-117.65
+San Dimas,San Dimas,CA,34.106,-117.824
+San Jose - Coleman Ave,San Jose,CA,37.341,-121.91
+San Jose - Cupertino,San Jose,CA,37.312,-122.031
+San Jose - Old Almaden,San Jose,CA,37.251,-121.879
+San Jose - Westgate West,San Jose,CA,37.293,-121.994
+San Francisco - 9th St,San Francisco,CA,37.771,-122.407
+San Francisco - Nob Hill,San Francisco,CA,37.791,-122.418
+San Francisco - North Beach,San Francisco,CA,37.805,-122.414
+San Francisco - Pacific Place,San Francisco,CA,37.785,-122.406
+San Francisco - Stonestown,San Francisco,CA,37.727,-122.476
+San Francisco,San Francisco,CA,37.783,-122.448
+San Francisco (Hayes Valley),San Francisco,CA,37.778,-122.426
+San Juan Capistrano,San Juan Capistrano,CA,33.496,-117.663
+San Luis Obispo,San Luis Obispo,CA,35.245,-120.673
+San Mateo - Grant St,San Mateo,CA,37.554,-122.303
+San Mateo - Hillsdale,San Mateo,CA,37.536,-122.299
+San Rafael,San Rafael,CA,37.97,-122.516
+San Ramon,San Ramon,CA,37.764,-121.952
+Santa Ana,Santa Ana,CA,33.701,-117.885
+Canyon Country,Santa Clarita,CA,34.395,-118.462
+Valencia,Santa Clarita,CA,34.428,-118.538
+Santa Barbara,Santa Barbara,CA,34.439,-119.729
+Santa Barbara,Santa Barbara,CA,34.425,-119.682
+Santa Cruz,Santa Cruz,CA,36.975,-122.024
+Santa Maria,Santa Maria,CA,34.938,-120.421
+Santa Monica,Santa Monica,CA,34.016,-118.492
+Santa Monica,Santa Monica,CA,34.026,-118.456
+Wilshire,Santa Monica,CA,34.033,-118.48
+Santa Rosa - Cleveland Ave,Santa Rosa,CA,38.474,-122.732
+Santa Rosa Ave,Santa Rosa,CA,38.417,-122.712
+Santee,Santee,CA,32.84,-116.986
+Sherman Oaks,Sherman Oaks,CA,34.158,-118.441
+Sherman Oaks too,Sherman Oaks,CA,34.157,-118.441
+Simi Valley,Simi Valley,CA,34.281,-118.739
+South Pasadena (Fair Oaks),South Pasadena,CA,34.113,-118.151
+South San Francisco,South San Francisco,CA,37.665,-122.446
+Stockton,Stockton,CA,38.009,-121.321
+Studio City,Studio City,CA,34.143,-118.393
+Tarzana,Tarzana,CA,34.17,-118.541
+Sunnyvale,Sunnyvale,CA,37.368,-122.036
+Templeton,Templeton,CA,35.542,-120.715
+Temecula,Temecula,CA,33.529,-117.156
+Newbury Park,Thousand Oaks,CA,34.18,-118.954
+Thousand Oaks,Thousand Oaks,CA,34.219,-118.869
+Toluca Lake,Toluca Lake,CA,34.152,-118.352
+Torrance - Hawthorne Blvd,Torrance,CA,33.852,-118.353
+Torrance - Rolling Hills Plaza,Torrance,CA,33.791,-118.33
+Tracy,Tracy,CA,37.756,-121.46
+Tustin,Tustin,CA,33.748,-117.809
+Vista,Vista,CA,33.17,-117.218
+Walnut Creek,Walnut Creek,CA,37.893,-122.061
+Ventura - Midtown,Ventura,CA,34.272,-119.249
+Ventura,Ventura,CA,34.257,-119.212
+West Hills,West Hills,CA,34.193,-118.624
+West Hollywood,West Hollywood,CA,34.088,-118.379
+West Hollywood,West Hollywood,CA,34.09,-118.349
+Westchester,Westchester,CA,33.959,-118.397
+Westlake Village,Westlake Village,CA,34.164,-118.825
+Whittier,Whittier,CA,33.949,-118.006
+Woodland Hills,Woodland Hills,CA,34.167,-118.593
+Yorba Linda,Yorba Linda,CA,33.89,-117.792
+Yucaipa,Yucaipa,CA,34.028,-117.116
+Westminster,Westminster,CO,39.867,-105.051
+Parker,Parker,CO,39.556,-104.778
+Fort Collins,Fort Collins,CO,40.539,-105.076
+Littleton,Littleton,CO,39.611,-105.089
+Greenwood Village,Greenwood Village,CO,39.608,-104.958
+Denver,Denver,CO,39.727,-104.983
+Denver Grocery,Denver,CO,39.728,-104.94
+Boulder,Boulder,CO,40.02,-105.258
+Colorado Springs,Colorado Springs,CO,38.907,-104.817
+Shelton,Shelton,CT,41.272,-73.127
+West Hartford,West Hartford,CT,41.724,-72.758
+Stamford,Stamford,CT,41.107,-73.548
+Danbury,Danbury,CT,41.392,-73.522
+Hamden,Hamden,CT,41.375,-72.914
+Fairfield,Fairfield,CT,41.182,-73.254
+Orange,Orange,CT,41.252,-73.02
+Manchester,Manchester,CT,41.807,-72.558
+Glastonbury,Glastonbury,CT,41.713,-72.6
+Darien,Darien,CT,41.084,-73.463
+Westport,Westport,CT,41.139,-73.351
+Wilmington,Wilmington,DE,39.834,-75.542
+Christiana,Newark,DE,39.673,-75.648
+Glover Park,Washington,DC,38.917,-77.068
+Washington - 14th St,Washington,DC,38.916,-77.032
+Washington - 25th St,Washington,DC,38.904,-77.053
+Washington - Brookland,Washington,DC,38.932,-76.996
+Washington - Capitol Hill,Washington,DC,38.885,-76.996
+Washington - Friendship Heights,Washington,DC,38.96,-77.085
+Washington - Union Market District,Washington,DC,38.908,-77.001
+Coral Gables,Coral Gables,FL,25.729,-80.258
+Davie,Davie,FL,26.093,-80.251
+Daytona Beach,Daytona Beach,FL,29.218,-81.095
+Delray Beach,Delray Beach,FL,26.439,-80.07
+Fort Lauderdale,Fort Lauderdale,FL,26.147,-80.119
+Coral Springs,Coral Springs,FL,26.265,-80.251
+Gainesville,Gainesville,FL,29.623,-82.38
+Fort Myers,Fort Myers,FL,26.587,-81.87
+Lakewood Ranch,Bradenton,FL,27.39,-82.452
+Boca Raton,Boca Raton,FL,26.342,-80.086
+Jacksonville,Jacksonville,FL,30.173,-81.629
+Jacksonville Beach,Jacksonville Beach,FL,30.257,-81.388
+Melbourne,Melbourne,FL,28.242,-80.728
+Miami - Midtown,Miami,FL,25.807,-80.193
+Pinecrest,Miami,FL,25.684,-80.313
+Palm Beach Gardens,Palm Beach Gardens,FL,26.844,-80.074
+Palm Harbor,Palm Harbor,FL,28.078,-82.738
+Pembroke Pines,Pembroke Pines,FL,26.006,-80.311
+Naples,Naples,FL,26.268,-81.801
+Miami Beach,Miami Beach,FL,25.792,-80.142
+Orlando,Orlando,FL,28.563,-81.207
+Orlando Dr. Phillips,Orlando,FL,28.45,-81.497
+Sarasota,Sarasota,FL,27.295,-82.53
+Sarasota,Sarasota,FL,27.236,-82.498
+St. Petersburg,St. Petersburg,FL,27.797,-82.639
+Tallahassee,Tallahassee,FL,30.504,-84.251
+Tampa,Tampa,FL,27.937,-82.506
+Wellington,Wellington,FL,26.638,-80.204
+West Palm Beach,West Palm Beach,FL,26.645,-80.057
+Winter Park,Winter Park,FL,28.598,-81.366
+Athens,Athens,GA,33.916,-83.443
+Sandy Springs,Sandy Springs,GA,33.926,-84.378
+Sandy Springs (Chastain),Sandy Springs,GA,33.881,-84.38
+Roswell,Roswell,GA,34.059,-84.38
+Atlanta,Atlanta,GA,33.78,-84.369
+Buckhead,Atlanta,GA,33.841,-84.375
+Peachtree City,Peachtree City,GA,33.395,-84.591
+Marietta,Marietta,GA,33.983,-84.426
+Norcross - Peachtree Corners,Norcross,GA,33.979,-84.22
+Johns Creek,Johns Creek,GA,34.065,-84.163
+Alpharetta,Alpharetta,GA,34.109,-84.219
+Meridian,Meridian,ID,43.632,-116.352
+Boise,Boise,ID,43.613,-116.204
+Coeur d'Alene,Coeur D'alene,ID,47.688,-116.781
+Joliet,Joliet,IL,41.578,-88.155
+Glen Ellyn,Glen Ellyn,IL,41.86,-88.059
+Batavia,Batavia,IL,41.864,-88.338
+Algonquin,Algonquin,IL,42.154,-88.34
+Arlington Heights,Arlington Heights,IL,42.113,-87.983
+Downers Grove,Downers Grove,IL,41.811,-87.989
+Chicago - Diversey Pkwy,Chicago,IL,41.932,-87.646
+Chicago - Lincoln Park,Chicago,IL,41.914,-87.655
+Chicago - River North,Chicago,IL,41.894,-87.626
+Chicago - South Loop,Chicago,IL,41.868,-87.625
+Chicago,Chicago,IL,41.95,-87.675
+Chicago,Chicago,IL,41.962,-87.65
+Hyde Park,Chicago,IL,41.795,-87.588
+Glenview,Glenview,IL,42.081,-87.797
+Evanston,Evanston,IL,42.04,-87.68
+La Grange,La Grange,IL,41.817,-87.869
+Libertyville,Libertyville,IL,42.255,-87.947
+Lake Zurich,Lake Zurich,IL,42.189,-88.109
+Naperville,Naperville,IL,41.755,-88.141
+Northbrook,Northbrook,IL,42.151,-87.799
+Orland Park,Orland Park,IL,41.618,-87.855
+Oak Park,Oak Park,IL,41.89,-87.805
+Oswego,Oswego,IL,41.709,-88.298
+Park Ridge,Park Ridge,IL,42.013,-87.832
+Schaumburg,Schaumburg,IL,42.051,-88.042
+Fort Wayne,Fort Wayne,IN,41.071,-85.195
+Indianapolis - Castleton,Indianapolis,IN,39.904,-86.075
+Indianapolis - W 86th,Indianapolis,IN,39.912,-86.213
+South Bend,South Bend,IN,41.688,-86.235
+W Des Moines,West Des Moines,IA,41.562,-93.796
+Coralville,Coralville,IA,41.683,-91.565
+Merriam,Merriam,KS,39.015,-94.687
+Leawood,Leawood,KS,38.913,-94.636
+Wichita,Wichita,KS,37.717,-97.243
+Lexington Grocery,Lexington,KY,38.005,-84.518
+Louisville Grocery,Louisville,KY,38.25,-85.629
+Crestview Hills Grocery,Crestview Hills,KY,39.026,-84.577
+Metairie,Metairie,LA,30.004,-90.152
+New Orleans - Mid-City,New Orleans,LA,29.961,-90.088
+New Orleans,New Orleans,LA,29.935,-90.103
+Mandeville,Mandeville,LA,30.393,-90.084
+Baton Rouge,Baton Rouge,LA,30.423,-91.154
+Lafayette,Lafayette,LA,30.161,-92.027
+Portland,Portland,ME,43.662,-70.265
+North Potomac,Rockville,MD,39.096,-77.207
+Rockville,Rockville,MD,39.087,-77.153
+Rockville,Rockville,MD,39.057,-77.123
+Baltimore - Anneslie,Baltimore,MD,39.372,-76.609
+Columbia,Elkridge,MD,39.188,-76.796
+Silver Spring,Silver Spring,MD,39.031,-77.004
+College Park,College Park,MD,38.978,-76.938
+Annapolis,Annapolis,MD,38.989,-76.54
+Bethesda - Downtown,Bethesda,MD,38.99,-77.096
+Bethesda,Bethesda,MD,38.978,-77.091
+Pikesville,Pikesville,MD,39.387,-76.736
+Towson,Towson,MD,39.412,-76.619
+Arlington,Arlington,MA,42.425,-71.189
+Brookline,Brookline,MA,42.342,-71.121
+Burlington,Burlington,MA,42.474,-71.211
+Framingham,Framingham,MA,42.299,-71.423
+Boston - Back Bay,Boston,MA,42.349,-71.084
+Boston - West Roxbury,Boston,MA,42.282,-71.158
+Boston (Boylston St),Boston,MA,42.35,-71.074
+Fort Point Seaport,Boston,MA,42.352,-71.047
+Hadley,Hadley,MA,42.358,-72.549
+Acton,Acton,MA,42.482,-71.415
+Foxborough - Patriot Place,Foxborough,MA,42.086,-71.27
+Cambridge,Cambridge,MA,42.358,-71.114
+Cambridge Fresh Pond,Cambridge,MA,42.39,-71.144
+Allston,Allston,MA,42.364,-71.13
+Hanover,Hanover,MA,42.144,-70.843
+Hyannis,Hyannis,MA,41.667,-70.292
+Needham Heights,Needham,MA,42.292,-71.235
+Milford,Milford,MA,42.161,-71.502
+Newton,Newton,MA,42.312,-71.214
+Peabody,Peabody,MA,42.55,-70.956
+Hingham,Hingham,MA,42.249,-70.924
+Reading,Reading,MA,42.52,-71.093
+Saugus,Saugus,MA,42.483,-71.017
+Quincy,Quincy,MA,42.247,-71.002
+Shrewsbury,Shrewsbury,MA,42.275,-71.751
+Somerville,Somerville,MA,42.395,-71.082
+West Newton,West Newton,MA,42.35,-71.219
+Bloomfield Hills,Bloomfield Hills,MI,42.544,-83.287
+Ann Arbor,Ann Arbor,MI,42.258,-83.713
+Farmington Hills,Farmington Hills,MI,42.498,-83.338
+Kalamazoo,Kalamazoo,MI,42.271,-85.65
+Royal Oak,Royal Oak,MI,42.495,-83.164
+Grosse Pointe,Grosse Pointe,MI,42.39,-82.916
+Grand Rapids - Kentwood,Kentwood,MI,42.912,-85.577
+East Lansing,East Lansing,MI,42.726,-84.453
+Rochester Hills,Rochester Hills,MI,42.683,-83.195
+Northville,Northville,MI,42.423,-83.434
+Woodbury,Woodbury,MN,44.946,-92.923
+Bloomington,Bloomington,MN,44.859,-93.332
+Minnetonka,Minnetonka,MN,44.974,-93.423
+Shoreview,Shoreview,MN,45.058,-93.144
+St. Louis Park,St. Louis Park,MN,44.935,-93.338
+Eagan,Eagan,MN,44.791,-93.21
+St. Paul,St. Paul,MN,44.927,-93.146
+Rochester,Rochester,MN,44.0,-92.48
+Maple Grove,Maple Grove,MN,45.092,-93.434
+Minneapolis,Minneapolis,MN,44.977,-93.258
+Chesterfield,Chesterfield,MO,38.645,-90.566
+Creve Coeur,Creve Coeur,MO,38.672,-90.436
+Kansas City,Kansas City,MO,38.971,-94.607
+Columbia,Columbia,MO,38.958,-92.373
+Des Peres,Des Peres,MO,38.601,-90.467
+Brentwood,Brentwood,MO,38.627,-90.341
+Lincoln,Lincoln,NE,40.743,-96.674
+Omaha,Omaha,NE,41.248,-96.074
+Carson City,Carson City,NV,39.113,-119.776
+Las Vegas - Centennial Hills,Las Vegas,NV,36.264,-115.257
+Las Vegas - Downtown Summerlin,Las Vegas,NV,36.147,-115.335
+Las Vegas - Summerlin,Las Vegas,NV,36.181,-115.258
+Sparks,Sparks,NV,39.581,-119.741
+Anthem,Henderson,NV,36.001,-115.109
+Henderson,Henderson,NV,36.07,-115.081
+Reno,Reno,NV,39.479,-119.784
+Reno (South),Reno,NV,39.406,-119.749
+Newington/Portsmouth,Portsmouth,NH,43.092,-70.799
+Nashua,Nashua,NH,42.708,-71.441
+Bedford,Bedford,NH,42.953,-71.477
+Freehold,Freehold,NJ,40.281,-74.293
+Brick,Brick,NJ,40.059,-74.14
+Iselin - Woodbridge,Iselin,NJ,40.559,-74.308
+Bridgewater,Bridgewater,NJ,40.563,-74.558
+Cherry Hill,Cherry Hill,NJ,39.93,-75.032
+Edgewater,Edgewater,NJ,40.82,-73.978
+Clifton,Clifton,NJ,40.837,-74.152
+Denville,Denville,NJ,40.867,-74.508
+Florham Park,Florham Park,NJ,40.789,-74.392
+Hoboken,Hoboken,NJ,40.754,-74.03
+Marlton,Marlton,NJ,39.891,-74.925
+Millburn,Millburn,NJ,40.723,-74.296
+Middletown,Middletown Township,NJ,40.405,-74.128
+North Brunswick,North Brunswick,NJ,40.463,-74.459
+Paramus,Paramus,NJ,40.948,-74.071
+Shrewsbury,Shrewsbury,NJ,40.317,-74.061
+Princeton,Princeton,NJ,40.311,-74.661
+Wayne,Wayne,NJ,40.959,-74.23
+West Orange,West Orange,NJ,40.793,-74.269
+Westfield,Westfield,NJ,40.652,-74.35
+Westwood,Westwood,NJ,40.993,-74.036
+Albuquerque,Albuquerque,NM,35.175,-106.543
+Albuquerque,Albuquerque,NM,35.102,-106.565
+Santa Fe,Santa Fe,NM,35.673,-105.953
+Hartsdale,Hartsdale,NY,41.026,-73.793
+Colonie/Albany,Colonie,NY,42.714,-73.812
+Westbury,Garden City,NY,40.745,-73.604
+Halfmoon,Halfmoon,NY,42.859,-73.766
+Amherst,Buffalo,NY,42.998,-78.821
+Glenmont,Glenmont,NY,42.601,-73.795
+Commack,Commack,NY,40.84,-73.308
+Hewlett,Hewlett,NY,40.639,-73.702
+Brooklyn - City Point,Brooklyn,NY,40.691,-73.983
+Brooklyn - Williamsburg,Brooklyn,NY,40.718,-73.965
+Brooklyn,Brooklyn,NY,40.69,-73.993
+Ithaca,Ithaca,NY,42.429,-76.508
+Lake Grove,Lake Grove,NY,40.869,-73.128
+Miller Place,Miller Place,NY,40.941,-72.993
+Larchmont,Larchmont,NY,40.938,-73.746
+72nd & Broadway,New York,NY,40.779,-73.982
+Chelsea,New York,NY,40.742,-73.994
+East Village,New York,NY,40.73,-73.981
+Essex Crossing,New York,NY,40.716,-73.987
+Harlem,New York,NY,40.808,-73.947
+New York - Murray Hill,New York,NY,40.744,-73.979
+SoHo,New York,NY,40.726,-74.005
+Union Square,New York,NY,40.733,-73.988
+Upper East Side - Bridgemarket,New York,NY,40.76,-73.961
+Upper West Side,New York,NY,40.791,-73.969
+Merrick,Merrick,NY,40.654,-73.559
+Oceanside,Oceanside,NY,40.627,-73.641
+Plainview,Plainview,NY,40.782,-73.502
+Forest Hills,Queens,NY,40.723,-73.849
+Long Island City,Queens,NY,40.746,-73.946
+Rego Park,Queens,NY,40.711,-73.858
+Scarsdale,Scarsdale,NY,40.972,-73.805
+Rochester,Rochester,NY,43.104,-77.542
+Staten Island - South Shore,Staten Island,NY,40.522,-74.216
+Staten Island,Staten Island,NY,40.59,-74.166
+Syracuse,Syracuse,NY,43.046,-76.07
+Syracuse,Syracuse,NY,43.048,-76.234
+Yorktown,Yorktown,NY,41.291,-73.824
+Williamsville,Williamsville,NY,42.984,-78.696
+Yonkers,Yonkers,NY,40.981,-73.828
+Chapel Hill,Chapel Hill,NC,35.936,-79.024
+Wilmington,Wilmington,NC,34.211,-77.886
+Asheville,Asheville,NC,35.603,-82.554
+Charlotte - North,Charlotte,NC,35.337,-80.755
+Charlotte - Piper Glen,Charlotte,NC,35.078,-80.818
+Charlotte,Charlotte,NC,35.212,-80.836
+Greenville,Greenville,NC,35.573,-77.384
+Winston Salem,Winston Salem,NC,36.093,-80.283
+Morrisville,Morrisville,NC,35.809,-78.818
+Cary,Cary,NC,35.76,-78.782
+Greensboro,Greensboro,NC,36.131,-79.858
+Raleigh - North,Raleigh,NC,35.899,-78.682
+Raleigh,Raleigh,NC,35.823,-78.622
+Dublin,Dublin,OH,40.096,-83.093
+Westlake,Westlake,OH,41.457,-81.951
+Mentor,Mentor,OH,41.681,-81.3
+Woodmere,Woodmere,OH,41.463,-81.479
+University Heights,University Heights,OH,41.487,-81.536
+Kenwood,Cincinnati,OH,39.197,-84.382
+Columbus,Columbus,OH,40.049,-82.918
+Kettering,Kettering,OH,39.688,-84.165
+Oklahoma City - Northwest,Oklahoma City,OK,35.556,-97.636
+Broken Arrow,Broken Arrow,OK,36.064,-95.773
+Oklahoma City - Nichols Hills,Nichols Hills,OK,35.538,-97.531
+Tulsa,Tulsa,OK,36.11,-95.976
+Bend,Bend,OR,44.104,-121.298
+Milwaukie,Milwaukie,OR,45.411,-122.627
+Beaverton,Beaverton,OR,45.488,-122.798
+Lake Oswego,Lake Oswego,OR,45.414,-122.743
+Gresham 276,Gresham,OR,45.5,-122.41
+Clackamas,Clackamas,OR,45.456,-122.581
+Eugene,Eugene,OR,44.066,-123.075
+Corvallis,Corvallis,OR,44.582,-123.26
+Medford,Medford,OR,42.343,-122.882
+Hillsboro,Hillsboro,OR,45.537,-122.869
+Portland - Hollywood,Portland,OR,45.535,-122.621
+Portland NW,Portland,OR,45.526,-122.695
+Portland SE,Portland,OR,45.489,-122.623
+Southwest Portland,Portland,OR,45.466,-122.751
+Tigard,Tigard,OR,45.404,-122.796
+Salem,Salem,OR,44.89,-123.033
+Pittsburgh - South Hills,Pittsburgh,PA,40.352,-80.052
+Pittsburgh,Pittsburgh,PA,40.459,-79.919
+Pittsburgh North Hills,Pittsburgh,PA,40.571,-80.022
+Exton,Exton,PA,40.029,-75.632
+Ardmore,Ardmore,PA,40.007,-75.286
+King of Prussia,King of Prussia,PA,40.094,-75.368
+North Wales,North Wales,PA,40.21,-75.223
+Arch St.,Philadelphia,PA,39.954,-75.162
+Philadelphia - Center City,Philadelphia,PA,39.954,-75.176
+Media,Media,PA,39.918,-75.389
+Berwyn,Berwyn,PA,40.047,-75.438
+Jenkintown,Jenkintown,PA,40.108,-75.123
+Camp Hill,Camp Hill,PA,40.224,-76.936
+Wayne,Wayne,PA,40.073,-75.433
+State College,State College,PA,40.81,-77.902
+Providence,Providence,RI,41.818,-71.4
+Warwick,Warwick,RI,41.712,-71.487
+Columbia,Columbia,SC,34.02,-80.973
+Columbia,Columbia,SC,34.073,-81.16
+Mt. Pleasant - Isle of Palms,Mt. Pleasant,SC,32.832,-79.827
+Mt. Pleasant,Mt. Pleasant,SC,32.805,-79.887
+Greenville,Greenville,SC,34.829,-82.306
+Myrtle Beach,Myrtle Beach,SC,33.653,-78.984
+Franklin - Cool Springs,Franklin,TN,35.95,-86.821
+Knoxville,Knoxville,TN,35.925,-84.046
+Belle Meade,Nashville,TN,36.131,-86.852
+Nashville,Nashville,TN,36.105,-86.816
+Murfreesboro,Murfreesboro,TN,35.858,-86.438
+Germantown,Germantown,TN,35.091,-89.801
+Chattanooga,Chattanooga,TN,35.033,-85.154
+Coppell,Coppell,TX,32.969,-96.993
+Fort Worth,Fort Worth,TX,32.712,-97.385
+Bee Cave,Bee Cave,TX,30.306,-97.942
+Katy (Cinco Ranch),Katy,TX,29.74,-95.775
+Houston - Alabama Theater,Houston,TX,29.739,-95.411
+Houston - S Voss Rd,Houston,TX,29.753,-95.502
+Houston - West,Houston,TX,29.735,-95.582
+Dallas  -  Lower Greenville,Dallas,TX,32.815,-96.771
+Dallas Far North,Dallas,TX,32.951,-96.802
+Dallas Knox,Dallas,TX,32.822,-96.79
+Dallas North,Dallas,TX,32.88,-96.772
+Dallas West,Dallas,TX,32.851,-96.819
+Kingwood,Kingwood,TX,30.049,-95.246
+Austin - Northwest,Austin,TX,30.395,-97.752
+Austin - Rollingwood,Austin,TX,30.271,-97.79
+Austin - Seaholm,Austin,TX,30.268,-97.753
+McKinney - West,Mckinney,TX,33.175,-96.723
+McKinney,Mckinney,TX,33.174,-96.643
+Cypress,Cypress,TX,29.919,-95.691
+Plano,Plano,TX,33.029,-96.793
+San Antonio - Northwest,San Antonio,TX,29.549,-98.582
+San Antonio - Sonterra Village,San Antonio,TX,29.609,-98.499
+San Antonio,San Antonio,TX,29.497,-98.478
+Southlake,Southlake,TX,32.941,-97.129
+The Woodlands,The Woodlands,TX,30.176,-95.536
+Sugar Land,Sugar Land,TX,29.584,-95.65
+Orem,Orem,UT,40.276,-111.685
+Cottonwood Heights,Cottonwood Heights,UT,40.624,-111.854
+Salt Lake City,Salt Lake City,UT,40.76,-111.873
+Salt Lake City (Sugar House),Salt Lake City,UT,40.724,-111.872
+Holladay,Holladay,UT,40.664,-111.837
+Draper,Draper,UT,40.543,-111.89
+Riverdale - Ogden,Riverdale,UT,41.189,-111.98
+West Jordan,West Jordan,UT,40.609,-112.024
+Herriman,Herriman,UT,40.508,-112.007
+South Burlington,South Burlington,VT,44.464,-73.18
+Ashburn,Ashburn,VA,39.05,-77.453
+Alexandria,Alexandria,VA,38.811,-77.045
+Bailey's Crossroads,Bailey's Crossroads,VA,38.851,-77.133
+Leesburg,Leesburg,VA,39.108,-77.531
+Fairfax,Fairfax,VA,38.843,-77.27
+Richmond/Short Pump,Glen Allen,VA,37.649,-77.606
+Falls Church - Tyson's Station,Falls Church,VA,38.904,-77.204
+Centreville,Centreville,VA,38.84,-77.433
+Arlington - Clarendon,Arlington,VA,38.887,-77.095
+Charlottesville,Charlottesville,VA,38.064,-78.491
+Newport News,Newport News,VA,37.129,-76.516
+Richmond,Richmond,VA,37.539,-77.564
+Springfield,Springfield,VA,38.782,-77.19
+Reston,Reston,VA,38.967,-77.359
+West Springfield,West Springfield,VA,38.78,-77.234
+Williamsburg,Williamsburg,VA,37.277,-76.748
+Virginia Beach,Virginia Beach,VA,36.849,-76.025
+Virginia Beach,Virginia Beach,VA,36.842,-76.13
+Bellingham - North,Bellingham,WA,48.796,-122.488
+Bellingham,Bellingham,WA,48.762,-122.464
+Issaquah,Issaquah,WA,47.544,-122.052
+Federal Way,Federal Way,WA,47.317,-122.311
+Bellevue,Bellevue,WA,47.631,-122.133
+Bellevue,Bellevue,WA,47.614,-122.185
+Everett,Everett,WA,47.91,-122.216
+Kent,Kent,WA,47.36,-122.166
+Lacey,Lacey,WA,47.042,-122.834
+Lynnwood,Lynnwood,WA,47.819,-122.314
+Kirkland,Kirkland,WA,47.712,-122.18
+Burien,Burien,WA,47.46,-122.332
+Olympia,Olympia,WA,47.033,-122.938
+Redmond,Redmond,WA,47.676,-122.128
+Sammamish,Sammamish,WA,47.614,-122.034
+Ballard,Seattle,WA,47.663,-122.374
+Seattle - Capitol Hill,Seattle,WA,47.616,-122.309
+Seattle - Greenwood,Seattle,WA,47.693,-122.355
+Seattle - Queen Anne Hill,Seattle,WA,47.637,-122.356
+Seattle - U District,Seattle,WA,47.663,-122.318
+Seattle,Seattle,WA,47.705,-122.327
+West Seattle,Seattle,WA,47.562,-122.381
+Shoreline,Shoreline,WA,47.755,-122.343
+Silverdale,Silverdale,WA,47.656,-122.682
+Spokane,Spokane,WA,47.629,-117.367
+Spokane N,Spokane,WA,47.709,-117.41
+Vancouver,Vancouver,WA,45.62,-122.554
+Vancouver (East),Vancouver,WA,45.615,-122.499
+Vancouver (Salmon Creek),Vancouver,WA,45.724,-122.661
+Spokane Valley,Spokane Valley,WA,47.656,-117.225
+University Place,University Place,WA,47.223,-122.539
+Woodinville,Woodinville,WA,47.753,-122.15
+Madison,Madison,WI,43.065,-89.418
+Glendale,Milwaukee,WI,43.119,-87.916
+Brookfield,Brookfield,WI,43.036,-88.07
