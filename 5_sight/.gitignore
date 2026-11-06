@@ -1,0 +1,22 @@
+# Include only the small public-facing package; retain all local working files.
+/*
+!/README.md
+!/.gitignore
+!/requirements.txt
+!/config/
+!/published/
+!/notebooks/
+!/scripts/
+!/data/
+/notebooks/*
+!/notebooks/pika_sight.ipynb
+/scripts/*
+!/scripts/prepare_pika_observations.py
+!/scripts/show_pika_images.py
+/data/*
+!/data/banff_geospatial/
+/data/banff_geospatial/*
+!/data/banff_geospatial/banff_mrdem_dtm_30m_26911.tif
+!/data/banff_geospatial/banff_late_summer_snow_frequency_30m.tif
+__pycache__/
+.ipynb_checkpoints/

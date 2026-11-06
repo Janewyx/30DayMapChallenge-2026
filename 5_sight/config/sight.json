@@ -1,0 +1,11 @@
+{
+  "figure_background": "#f4f1eb",
+  "text_color": "#202426",
+  "snow_colors": ["#ebeff0", "#c2e3f2", "#82b9e5", "#397bd0", "#1546a3"],
+  "detection_colors": {"latest_positive": "#263037", "earlier_positive": "#D75D75", "no_positive": "#F7F5EF", "insufficient": "#969a99"},
+  "images": [
+    {"title": "Pika data: geographic overview", "path": "published/pika_data_static_overview.png"},
+    {"title": "Terrain preview: hillshade and contours", "path": "published/pika_terrain_B_contours.png"},
+    {"title": "Sight / 05: Banff pika observations", "path": "published/banff_sight_published_plate.png"}
+  ]
+}
