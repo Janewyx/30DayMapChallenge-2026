@@ -1,20 +1,17 @@
 # Day 04 — Clusters: Trader Joe's
 
-This folder contains a reproducible notebook comparing observed store points, HDBSCAN clusters, and Gaussian KDE surfaces across the contiguous United States.
+This project asks: **What spatial structure is visible in Trader Joe's store locations across the contiguous United States, and how does that structure change when represented as discrete clusters versus a continuous density field?** Using 655 observed store locations, the notebook compares two exploratory views of the same distribution. These patterns are analytical representations—not Trader Joe's operating regions, market boundaries, or evidence of demand.
 
-## Run
+## HDBSCAN spatial clusters
 
-From `4_clusters/`:
+![Trader Joe's HDBSCAN spatial clusters](outputs/trader_joes_hdbscan.png)
 
-```bash
-python3 -m venv --system-site-packages .venv
-.venv/bin/python -m pip install -r requirements.txt
-.venv/bin/python -m ipykernel install --prefix .venv --name python3
-.venv/bin/python build_notebook.py
-JUPYTER_PATH=.venv/share/jupyter MPLCONFIGDIR=.mplconfig \
-  .venv/bin/python execute_notebook.py
-```
+HDBSCAN identifies persistent, density-based groups without requiring a preset number of clusters or forcing every store into one. With `min_cluster_size=5` and `min_samples=3`, the analysis finds 37 clusters and leaves 85 stores as noise. The eight largest clusters are shown individually, the remaining valid clusters in warm taupe, and unassigned stores as hollow sage circles. Cluster IDs are arbitrary analytical labels.
 
-The notebook reads the CartoDB raster URL from `../secrets/readme` without printing or embedding it. If tiles are unavailable, maps fall back to the local Census state boundaries. The state boundary archive is the U.S. Census Bureau's 2025 1:20,000,000 cartographic boundary file.
+## Gaussian KDE store-density field
 
-Outputs are written to `outputs/` at 300 DPI.
+![Trader Joe's Gaussian KDE store-density field](outputs/trader_joes_kde.png)
+
+Gaussian kernel density estimation (KDE) presents store concentration as a continuous surface rather than assigning memberships. The map uses a 30 km bandwidth on a 10 km grid and expresses the smoothed result as stores per 100 km². Its contours reveal local and regional concentrations, but they are model-derived isodensity bands—not market boundaries.
+
+For the data preparation, parameter choices, method explanations, limitations, bandwidth comparison, and combined HDBSCAN-informed KDE, see the full [`trader_joes_clusters.ipynb`](notebooks/trader_joes_clusters.ipynb) notebook.
