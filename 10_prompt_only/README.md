@@ -3,12 +3,14 @@
 **Ice in the mountains — a human-in-the-loop map study.**  
 Jane Wang × Codex · 10 November 2026
 
+A reconstructed transcript of my ChatGPT-assisted ideation for the 30DayMapChallenge, Prompt Only theme, with selected prompts passed to Codex for implementation, tracing the cartographic evolution from initial concept to final glacier catalogue.
+
 > **Jane · Creative brief**  
 > "**Today’s objective:** Today's objective is to explore how far I can develop a glacier visualization through prompting alone, without writing the implementation code myself. <br><br>Using annual glacier outlines from the Coast Mountains and digital elevation data, I want to visualize changing glacier extent between 1984 and 2020.<br><br>Start with an animated map, then explore how terrain, lighting, scale, and composition can make these changes more legible. Ultimately, I'd like to isolate sixteen glaciers with substantial recorded changes and present them as a comparative catalogue, connected by a shared area timeline.<br><br>Throughout the process, preserve the recorded glacier geometries and measurements. The visual effects should enhance interpretation without altering the underlying data."
 
 ![Final animated glacier catalogue with sixteen circular panels and a shared annual area timeline](outputs/web/glacier_specimens.gif)
 
-[High-resolution still](outputs/glacier_specimens.png)
+[High-resolution still](outputs/glacier_specimens.pdf)
 
 ## The conversation behind the plate
 
