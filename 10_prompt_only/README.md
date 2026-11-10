@@ -19,6 +19,7 @@ _A reconstructed transcript of my ChatGPT-assisted ideation for the 30DayMapChal
 <details>
 <summary><strong>01 / Start with time</strong></summary>
 <br>
+
 > **Jane · Initial exploration**  
 > “Start by showcasing the time series of glacier extent using the annual polygon records.<br><br>I'd like to see how the outlines change between 1984 and 2020, with a fixed map extent so the glacier doesn't move around between frames.”
 
@@ -31,6 +32,7 @@ _A reconstructed transcript of my ChatGPT-assisted ideation for the 30DayMapChal
 <details>
 <summary><strong>02 / Give the ice a landscape</strong></summary>
 <br>
+
 > **Jane · Terrain and contrast**  
 > “The glacier outlines alone aren't giving me enough geographical context. I'd like to introduce elevation data and make the terrain an important part of the composition.<br><br>Use a dark DEM background with pronounced mountain relief, then overlay the glacier polygons in bright turquoise. Make the ice semi-transparent and luminous so it stands out without completely obscuring the terrain underneath.<br><br>Let's expand beyond the single glacier and use the combined elevation coverage as our study window. Keep the year and area timeline visible, and don't remove glaciers simply because the DEM is missing in some places.<br><br>I want the map to feel more atmospheric, but the glacier extents still need to come from the actual records.”
 
@@ -45,6 +47,7 @@ Jane asked to use the combined elevation bounds as the study window. That kept g
 <details>
 <summary><strong>03 / From map to specimen plate</strong></summary>
 <br>
+
 > **Jane · Editorial art direction**  
 > “I want to move away from the appearance of a conventional GIS export and toward an editorial scientific specimen plate.<br><br>The DEM should feel like one continuous mountain surface rather than a collection of raster tiles. Darken the valleys substantially, keep the ridges in cool graphite, and use a consistent elevation stretch and hillshade treatment across the mosaic. Soften the glacier colour from saturated turquoise toward frosted cyan. Remove the boxed legend and the DEM 2–98% elevation-stretch ramp; they're making the composition feel too technical.”
 
@@ -63,6 +66,7 @@ Jane distinguished the frost within the current footprint from the light that ma
 <details>
 <summary><strong>05 / Sixteen moving specimens</strong></summary>
 <br>
+
 > **Jane · Change of scale**  
 > “The regional map is obscuring the very changes I'm trying to communicate. Select sixteen (arranged in a 4 × 4 grid) with particularly substantial recorded changes and give each glacier its own circular terrain view. Keep each specimen's camera and geographic extent fixed throughout the animation.<br><br>The circles don't need to share the same geographic scale, but each glacier must remain comparable with itself through time. Show the glacier name, ID, area, and percentage change since 1984 beneath each specimen. Keep the typography restrained and the terrain treatment consistent.”
 
