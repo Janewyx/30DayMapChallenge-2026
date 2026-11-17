@@ -1,0 +1,76 @@
+# All tunable knobs for the "Findelen, taken apart" plate.
+# Edit here, then re-run notebooks/findelen_anatomy.ipynb — no code changes needed.
+
+paths:
+  data_dir: data/findelen_gries/bed_study_extracted
+  out_dir: outputs
+
+# Camera and lighting, shared by all three layers.
+view:
+  azimuth_deg: 68     # compass bearing the camera looks toward; larger turns the
+                       # model counter-clockwise and swings the tongue toward you
+  elevation_deg: 22    # camera tilt above the horizon (90 = straight-down map view)
+  relief: 1.3          # vertical exaggeration
+  lights:              # [azimuth_deg, altitude_deg, weight] for each light
+    - [300, 34, 0.72]
+    - [220, 60, 0.28]
+
+# How much of the basin is kept, and what counts as a nunatak.
+footprint:
+  rock_margin_m: 450   # ice-free margin drawn around the glacier
+  display_resample: 12 # 25 m grid -> 25/12 ~ 2.1 m display mesh (shading only)
+  nunatak_min_cells: 2 # smallest ice-free island (in 25 m cells) counted as a nunatak
+
+# Page geometry, in figure fractions (0 = bottom/left, 1 = top/right) unless noted.
+layout:
+  fig_w_in: 13
+  fig_h_in: 16.25       # 4:5 portrait, sized for a LinkedIn post
+  dpi: 300
+  supersample: 2        # render oversampling for clean edges
+  plate_left: 0.07       # left edge shared by title, body text and terrain
+  plate_max_width: 0.86  # widest the terrain may run
+  stack_top: 0.805
+  stack_bottom: 0.178    # vertical band the three layers fill
+  layer_gap: 0.032       # clear whitespace kept between silhouettes
+  layer_order: [ice, rock, bed]   # top to bottom
+  label_gap_x: 0.05       # terrain's right edge -> the separator dot/line
+  label_text_indent: 0.09 # dot -> start of the label text
+
+# Söhne is a licensed typeface kept outside Git. When it is missing, the notebook
+# falls back to DejaVu Sans, which ships with matplotlib and needs no installation.
+fonts:
+  dir: ../OTF                  # relative to the 15_inside_out folder
+  family: Söhne
+  title_file: Söhne-Leicht.otf # lighter weight used for the plate title
+  fallback: DejaVu Sans
+
+type:
+  size_eyebrow: 16
+  size_title: 50
+  size_subtitle: 26
+  size_label: 20
+  size_label_sub: 14
+  size_stats: 18
+  size_footer: 14
+
+colour:
+  ink: "#263236"
+  muted: "#6b7a7e"
+  paper: "#fafbf9"
+  # ramp: shadow -> highlight. contrast: 1 = raw lambert shading, >1 stretches it.
+  # engrave: multiplier applied to each native 25 m grid row (1 = no engraving).
+  materials:
+    ice:
+      ramp: ["#46555e", "#64777f", "#8496a0", "#a9b9c0", "#d3dee2"]
+      warm: ["#57514d", "#77706b", "#958e88", "#b7b1ab", "#dcd8d4"]
+      warm_max: 0.7   # how far the low tongue drifts toward warm grey
+      contrast: 1.15
+      engrave: 1.0
+    rock:
+      ramp: ["#1d2529", "#30393e", "#515b60", "#889295", "#c9cfd0"]
+      contrast: 1.45
+      engrave: 0.88
+    bed:
+      ramp: ["#3e3c39", "#66625c", "#99938a", "#cbc5bb", "#efece6"]
+      contrast: 1.3
+      engrave: 0.90

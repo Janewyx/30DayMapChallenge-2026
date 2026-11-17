@@ -1,0 +1,15 @@
+# Preserve large source assets locally without accidentally committing them.
+data/**/*.tif
+data/**/*.tiff
+data/**/*.las
+data/**/*.laz
+data/**/*.zip
+data/**/*.mp4
+data/**/*.pdf
+data/**/*.asc
+*.part
+*.range-*
+*.tmp
+__pycache__/
+data/*.npz
+.venv/
