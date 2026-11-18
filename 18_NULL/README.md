@@ -43,7 +43,7 @@ Edit `FALLS` in shallow-to-deep order and supply one colour per threshold in `IC
 
 [High-resolution PNG](outputs/emergent_coastline.png) · [SVG with embedded terrain raster](outputs/emergent_coastline.svg) · [Scenario areas](outputs/scenarios.csv) · [Counts and percentages by TID](outputs/provenance.csv)
 
-## 
+## One-go GPT-6.2 Astra experiment
 
 ```
 Build a complete #30DayMapChallenge visualization for the theme **NULL**.
