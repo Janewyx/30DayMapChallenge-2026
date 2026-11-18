@@ -47,8 +47,10 @@ Edit `RISES` in shallow-to-deep order and supply one colour per threshold in `IC
 
 [High-resolution PNG](outputs/emergent_coastline.png) · [SVG with embedded terrain raster](outputs/emergent_coastline.svg) · [Scenario areas](outputs/scenarios.csv) · [Counts and percentages by TID](outputs/provenance.csv)
 
+## One-go GPT-6.2 Astra experiment
+
 <details>
-<summary>Original experiment prompt (archived)</summary>
+<summary>Experiment prompt</summary>
 
 
 ```
@@ -60,12 +62,12 @@ Build a complete #30DayMapChallenge visualization for the theme **NULL**.
 
 I want to visualize land that is physically present as submarine topography but is currently “null” as land because it lies below present sea level.
 
-The map should reveal shallow terrain around Iceland that would become exposed under hypothetical decreases in **relative sea level**.
+The map should reveal shallow terrain around Iceland that would become exposed under hypothetical amounts of **uniform relative land rise**.
 
 This is inspired by Icelandic postglacial/isostatic uplift, but it must remain scientifically honest:
 
-- Do **not** present the result as a forecast unless you locate and use a credible spatial uplift-rate dataset plus an explicit sea-level-change assumption and time horizon.
-- The primary deliverable should instead be a **terrain-based counterfactual**: “what presently submerged terrain would emerge if relative sea level were X metres lower?”
+- Treat the offsets as hypothetical and spatially uniform. They do not represent measured uplift or forecast Iceland’s coastline.
+- The primary deliverable should instead be a **terrain-based counterfactual**: “what presently submerged terrain would emerge if the shelf rose uniformly by X metres relative to the sea?”
 - Make that distinction explicit in the figure notes.
 
 ## Data
@@ -85,16 +87,16 @@ Start from the elevation grid where:
 - `elevation >= 0` = present land
 - `elevation < 0` = presently submerged terrain
 
-Create cumulative emergent-land scenarios for relative sea-level falls such as:
+Create cumulative emergent-land scenarios for hypothetical uniform relative land rises of:
 
-- 1 m
-- 5 m
-- 10 m
-- 25 m
+- +10 m
+- +25 m
+- +50 m
+- +100 m
 
 You may adjust these thresholds slightly after inspecting the nearshore elevation distribution if another set communicates the morphology substantially better, but keep the scenarios simple and clearly labeled.
 
-For a sea-level fall of `d` metres, newly emergent terrain is approximately:
+For a uniform relative land rise of `d` metres, presently submerged cells reach or cross the present-day sea-level datum when:
 
 `-d <= elevation < 0`
 
@@ -102,7 +104,7 @@ Keep the existing Iceland landmass visually separate from newly emergent terrain
 
 Calculate the additional exposed area for each scenario in km² using projected/geodesically appropriate cell areas—not raw pixel counts.
 
-If you find an authoritative and readily usable Iceland uplift-rate raster/vector field, you may build an OPTIONAL second analysis relating uplift to relative sea-level change. Do not block the main map looking for one, and do not fabricate spatial uplift rates.
+If you find an authoritative and readily usable Iceland uplift-rate raster/vector field, you may build an OPTIONAL second analysis describing measured uplift separately from the hypothetical scenarios. Do not block the main map looking for one, and do not fabricate spatial uplift rates.
 
 ## Visual direction
 
@@ -138,7 +140,7 @@ Possible secondary line:
 
 The graphic should make the conceptual point before the viewer reads the methodology.
 
-Do not make the counterfactual bands look like a deterministic future coastline. Label them explicitly as relative-sea-level thresholds.
+Do not make the counterfactual bands look like a deterministic future coastline. Label them explicitly as hypothetical relative land rises.
 
 ## Implementation
 
@@ -188,7 +190,7 @@ Consider the task complete when you have:
    - any important GEBCO limitations,
    - which parameters I can change for visual iteration.
 
-Above all, preserve the distinction between **real submarine topography** and **hypothetical relative sea-level change**.
+Above all, preserve the distinction between **real submarine topography** and **hypothetical relative land rise**.
 ```
 
 </details>
