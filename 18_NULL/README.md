@@ -1,5 +1,7 @@
 # Day 18 · NULL · Emergent coastline
 
+As Iceland’s glaciers thin, the crust can rise under the lighter load. This is isostatic rebound, and where the land rises relative to the sea, shallow seabed can emerge. For **NULL**, the seabed is terrain that already exists but is absent from a map of dry land. This map holds today’s terrain fixed and asks what would appear above a hypothetical lower sea level.
+
 Which parts of Iceland’s shelf would stand above a lower relative sea level? Pale bands pick out shallow banks in the western bays. The deeper thresholds reach across the outer western shelf and reveal detached banks off the north coast.
 
 ![Iceland and four depth bands on its surrounding shelf](outputs/emergent_coastline.png)
