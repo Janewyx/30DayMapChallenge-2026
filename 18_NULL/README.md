@@ -1,21 +1,23 @@
 # Day 18 · NULL · Emergent coastline
 
-As Iceland’s glaciers thin, the crust can rise under the lighter load. This is isostatic rebound, and where the land rises relative to the sea, shallow seabed can emerge. For **NULL**, the seabed is terrain that already exists but is absent from a map of dry land. This map holds today’s terrain fixed and asks what would appear above a hypothetical lower sea level.
+Parts of Iceland are rising as glaciers lose mass and the crust responds to the lighter load. This rebound inspires the map’s **NULL** theme. The ground is already there beneath the water. How much of it would emerge if the shelf rose uniformly relative to today’s sea level?
 
-Which parts of Iceland’s shelf would stand above a lower relative sea level? Pale bands pick out shallow banks in the western bays. The deeper thresholds reach across the outer western shelf and reveal detached banks off the north coast.
+Pale bands pick out shallow banks in the western bays. The deeper thresholds reach across the outer western shelf and reveal detached banks off the north coast.
 
 ![Iceland and four depth bands on its surrounding shelf](outputs/emergent_coastline.png)
 
 ## Read the plate
 
-Grey is terrain at or above GEBCO zero. The fine line follows its edge. For a hypothetical fall of `d` metres, the exposed class includes every cell with `−d ≤ elevation < 0` in the map frame. Its area includes disconnected banks. For example, the 50 m scenario includes the first three colours. Today’s terrain stays fixed throughout. Icelandic glacial-isostatic uplift motivated the geographic choice. The calculation uses no uplift rate, time horizon, tidal model or ocean-connectivity test.
+Grey is terrain at or above GEBCO zero. The fine line follows its edge. For a hypothetical uniform relative land rise of `d` metres, presently submerged cells with `−d ≤ elevation < 0` would reach or cross the present-day zero-elevation boundary. The underlying GEBCO terrain geometry is unchanged. Each scenario applies a uniform vertical offset relative to the present sea-level datum. The +50 m total includes the first three colours, including disconnected banks.
 
-| Lower datum | Additional area, cumulative | Direct TID | Gravity-predicted TID | Land TID | Chart contours and steering points |
+These hypothetical offsets do not forecast Iceland’s coastline or represent measured Icelandic uplift fields. The calculation uses no uplift rate, time horizon, tidal model or ocean-connectivity model.
+
+| Relative land rise | Additional area, cumulative | Direct TID | Gravity-predicted TID | Land TID | Chart contours and steering points |
 |---|---:|---:|---:|---:|---:|
-| −10 m | 2,460 km² | 59.41% | 32.21% | 8.16% | 0.22% |
-| −25 m | 7,180 km² | 73.77% | 22.42% | 3.71% | 0.10% |
-| −50 m | 16,670 km² | 82.99% | 15.23% | 1.73% | 0.05% |
-| −100 m | 42,250 km² | 87.82% | 11.46% | 0.70% | 0.02% |
+| +10 m | 2,460 km² | 59.41% | 32.21% | 8.16% | 0.22% |
+| +25 m | 7,180 km² | 73.77% | 22.42% | 3.71% | 0.10% |
+| +50 m | 16,670 km² | 82.99% | 15.23% | 1.73% | 0.05% |
+| +100 m | 42,250 km² | 87.82% | 11.46% | 0.70% | 0.02% |
 
 The four trial thresholds add approximately 2,460, 4,720, 9,490 and 25,590 km² in successive bands. All four are retained to distinguish nearshore shallows from the wider shelf. Areas on the plate are rounded to the nearest 10 km² for readability. The calculation includes cells whose centres fall inside the 690 × 455 km map frame.
 
@@ -41,11 +43,13 @@ The clipped grids in `data/` are committed, so the full GEBCO tiles are needed o
 
 The script defines the footprint in an Iceland-centred Lambert azimuthal equal-area projection and classifies the native geographic grid. It sums WGS84 ellipsoidal cell areas by latitude row. Only the display uses a nearest-neighbour reprojection to approximately 300 m. Directional shading derives from the terrain slope.
 
-Edit `FALLS` in shallow-to-deep order and supply one colour per threshold in `ICE`. Edit `BOUNDS` to change the map and statistics together. The remaining palette variables, display spacing and figure typography control appearance. The repository’s Söhne typeface is used when available.
+Edit `RISES` in shallow-to-deep order and supply one colour per threshold in `ICE`. Edit `BOUNDS` to change the map and statistics together. The remaining palette variables, display spacing and figure typography control appearance. The repository’s Söhne typeface is used when available.
 
 [High-resolution PNG](outputs/emergent_coastline.png) · [SVG with embedded terrain raster](outputs/emergent_coastline.svg) · [Scenario areas](outputs/scenarios.csv) · [Counts and percentages by TID](outputs/provenance.csv)
 
-## One-go GPT-6.2 Astra experiment
+<details>
+<summary>Original experiment prompt (archived)</summary>
+
 
 ```
 Build a complete #30DayMapChallenge visualization for the theme **NULL**.
@@ -186,3 +190,5 @@ Consider the task complete when you have:
 
 Above all, preserve the distinction between **real submarine topography** and **hypothetical relative sea-level change**.
 ```
+
+</details>
