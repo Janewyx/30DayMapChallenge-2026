@@ -1,0 +1,135 @@
+[
+  {
+    "file": "brands.csv",
+    "source_url": "https://raw.githubusercontent.com/parfica/parfica-open-data/c88db557698607bfbfa52d9db20c6041a10c8906/data/brands.csv",
+    "retrieved": "2026-11-19",
+    "sha256": "1d7b6059a7328301aa154b2aa5c7d4c4959a25c419c7d23614f1088ce26bd08f",
+    "stable_sha256": "1d7b6059a7328301aa154b2aa5c7d4c4959a25c419c7d23614f1088ce26bd08f"
+  },
+  {
+    "file": "ecoregions.csv",
+    "source_url": "https://zenodo.org/records/13166796/files/EcoregionsTreeFinder_ecoregions.txt",
+    "retrieved": "2026-11-19",
+    "sha256": "5a3946b4aed1c3cc3e6763ecc720d68f38539c25d44641094790cd131593b025",
+    "stable_sha256": "5a3946b4aed1c3cc3e6763ecc720d68f38539c25d44641094790cd131593b025"
+  },
+  {
+    "file": "gbif_Cananga_odorata.json",
+    "source_url": "https://api.gbif.org/v2/species/match?scientificName=Cananga+odorata&kingdom=Plantae",
+    "retrieved": "2026-11-19",
+    "sha256": "238436b1ff72e8d554055bf45f3d4738e3017e3d66288f05d38d8c4e6dcb8e32",
+    "stable_sha256": "b7cd5be22bb4c73603fce2a334342c0ccd1cbf969c23aea2d3ca31e66d6353fe"
+  },
+  {
+    "file": "gbif_Cedrus_atlantica.json",
+    "source_url": "https://api.gbif.org/v2/species/match?scientificName=Cedrus+atlantica&kingdom=Plantae",
+    "retrieved": "2026-11-19",
+    "sha256": "34cae0496f54e6390e2fb6b15a41799e83f4daf58a0071cb2c65b5903ac5580e",
+    "stable_sha256": "e91bea1d9f0f51347fcc33727338a4836b25e9e91215ae161e996e9461bc4d9f"
+  },
+  {
+    "file": "gbif_Chrysopogon_zizanioides.json",
+    "source_url": "https://api.gbif.org/v2/species/match?scientificName=Chrysopogon+zizanioides&kingdom=Plantae",
+    "retrieved": "2026-11-19",
+    "sha256": "4080f223fc7dca05ee0c6c4892598a9d2c7f5e3cee023447a2f13251a127aaec",
+    "stable_sha256": "806db80c93eeefeac82f2db942d5128e28c7f3ba80d9c25a093a39cedbbb4922"
+  },
+  {
+    "file": "gbif_Ilex_paraguariensis.json",
+    "source_url": "https://api.gbif.org/v2/species/match?scientificName=Ilex+paraguariensis&kingdom=Plantae",
+    "retrieved": "2026-11-19",
+    "sha256": "7f8f5db63da561c5c8c530b03451401a1adc6bf60fa08705d885360bc8504753",
+    "stable_sha256": "6fd8263a6645f08d3066fb7fa2f3175f2c14f0795c0b139bbcf9605a4ea8c7f3"
+  },
+  {
+    "file": "gbif_Juniperus_virginiana.json",
+    "source_url": "https://api.gbif.org/v2/species/match?scientificName=Juniperus+virginiana&kingdom=Plantae",
+    "retrieved": "2026-11-19",
+    "sha256": "c8abc450839ffef94c9ddf0f2a29bc5bcc40af10b8caaa107ddb0f2e5d27f445",
+    "stable_sha256": "b2998d5932cf54c7bd5a355ac98090c5258f297d49653ede95979f964bcc43da"
+  },
+  {
+    "file": "gbif_Pistacia_lentiscus.json",
+    "source_url": "https://api.gbif.org/v2/species/match?scientificName=Pistacia+lentiscus&kingdom=Plantae",
+    "retrieved": "2026-11-19",
+    "sha256": "a22482f182f63434c1945944e4d879a31a4ff518535fe3621fec47834b96cb52",
+    "stable_sha256": "4c9744e6f8ed2a1ded9bf268faf1dcbe9edc002b9d6cbfcffe52fdea1c8a38c1"
+  },
+  {
+    "file": "gbif_Syzygium_aromaticum.json",
+    "source_url": "https://api.gbif.org/v2/species/match?scientificName=Syzygium+aromaticum&kingdom=Plantae",
+    "retrieved": "2026-11-19",
+    "sha256": "6e80801ff9bf7543298a3f4078d9451eab0ad2693d585fbe98ff46b74015c231",
+    "stable_sha256": "8d99792deaa252f3ddcdb58c09733b763ddd28501455a51752f0cd43800ba707"
+  },
+  {
+    "file": "gbif_Tectona_grandis.json",
+    "source_url": "https://api.gbif.org/v2/species/match?scientificName=Tectona+grandis&kingdom=Plantae",
+    "retrieved": "2026-11-19",
+    "sha256": "c8ac0fc93b2cc2202ddac2fb878f72deefd21ce6cc8de164eb3871c597736a60",
+    "stable_sha256": "74bd5ce94cc47ffcd31e21e7046eda40669c50187d0f0369030fbd757d9e69dc"
+  },
+  {
+    "file": "houses.csv",
+    "source_url": "https://raw.githubusercontent.com/Scento-com/perfume-dataset/58da85556a4bb42a7d56279d66fbec4dbf42cc4a/houses.csv",
+    "retrieved": "2026-11-19",
+    "sha256": "f076db1629fc1c07fe417811a55891bbfe70991319bf5c520766253f80cc9c18",
+    "stable_sha256": "f076db1629fc1c07fe417811a55891bbfe70991319bf5c520766253f80cc9c18"
+  },
+  {
+    "file": "materials.csv",
+    "source_url": "https://raw.githubusercontent.com/Scento-com/perfume-dataset/58da85556a4bb42a7d56279d66fbec4dbf42cc4a/materials.csv",
+    "retrieved": "2026-11-19",
+    "sha256": "9b342c803f0b370e96106a4dff0ae56f1f5340bdc82c6e32d180473a9f31764c",
+    "stable_sha256": "9b342c803f0b370e96106a4dff0ae56f1f5340bdc82c6e32d180473a9f31764c"
+  },
+  {
+    "file": "names.csv",
+    "source_url": "https://sftp.kew.org/pub/data-repositories/WCVP/wcvp.zip",
+    "retrieved": "2026-11-19",
+    "sha256": "5a7a31dbc139af02920587d0a62080f6dd027586bc3b0a0f53528137ab0a58e3",
+    "stable_sha256": "5a7a31dbc139af02920587d0a62080f6dd027586bc3b0a0f53528137ab0a58e3"
+  },
+  {
+    "file": "parfumo.csv",
+    "source_url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/d0536f3c1433c4eff75f9b050108232011c451a7/data/2024/2024-12-10/parfumo_data_clean.csv",
+    "retrieved": "2026-11-19",
+    "sha256": "94956339772a02c0355ff3f9de4f15cd3f078a124b2829dde30bcee83446cc7d",
+    "stable_sha256": "94956339772a02c0355ff3f9de4f15cd3f078a124b2829dde30bcee83446cc7d"
+  },
+  {
+    "file": "ranges.csv",
+    "source_url": "https://sftp.kew.org/pub/data-repositories/WCVP/wcvp.zip",
+    "retrieved": "2026-11-19",
+    "sha256": "17d0c6f943f1098e0da9284d6577219fd254fa985425d5f8afe3e6fbf488c23e",
+    "stable_sha256": "17d0c6f943f1098e0da9284d6577219fd254fa985425d5f8afe3e6fbf488c23e"
+  },
+  {
+    "file": "tree_metadata.xlsx",
+    "source_url": "https://zenodo.org/records/13166796/files/EcoregionsTreeFinder_metadata.xlsx",
+    "retrieved": "2026-11-19",
+    "sha256": "a31a6d9ab16dbd3f2ec2e3112fdfd7685666aa5c2b3f9552182b1572bda71062",
+    "stable_sha256": "a31a6d9ab16dbd3f2ec2e3112fdfd7685666aa5c2b3f9552182b1572bda71062"
+  },
+  {
+    "file": "tree_pairs.csv",
+    "source_url": "https://zenodo.org/records/13166796/files/EcoregionsTreeFinder.txt",
+    "retrieved": "2026-11-19",
+    "sha256": "899988da4a96b7295127fd172548f57d95df113fb01fbd07b1cfa71168ecb05d",
+    "stable_sha256": "899988da4a96b7295127fd172548f57d95df113fb01fbd07b1cfa71168ecb05d"
+  },
+  {
+    "file": "tree_record.json",
+    "source_url": "https://zenodo.org/api/records/13166796",
+    "retrieved": "2026-11-19",
+    "sha256": "e84595f5fb67a8cdd9f0c8ba20070907d0dfac2a14b57af238cd1a295a07b7bd",
+    "stable_sha256": "ae5be283a68d2b93d07b6a385826c0b4e8c1cdf136d9eed4ab45c54dc87b36af"
+  },
+  {
+    "file": "tree_species.csv",
+    "source_url": "https://zenodo.org/records/13166796/files/EcoregionsTreeFinder_species.txt",
+    "retrieved": "2026-11-19",
+    "sha256": "2e180dd68a62a923a80b4352940328336999c0f95fd40080552199ae35949b5a",
+    "stable_sha256": "2e180dd68a62a923a80b4352940328336999c0f95fd40080552199ae35949b5a"
+  }
+]
