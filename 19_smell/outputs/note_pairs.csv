@@ -1,0 +1,27 @@
+first_species,second_species,shared_perfumes
+Cananga odorata,Cedrus atlantica,19
+Cananga odorata,Chrysopogon zizanioides,747
+Cananga odorata,Ilex paraguariensis,4
+Cananga odorata,Juniperus virginiana,26
+Cananga odorata,Pistacia lentiscus,12
+Cananga odorata,Syzygium aromaticum,295
+Cananga odorata,Tectona grandis,1
+Cedrus atlantica,Chrysopogon zizanioides,44
+Cedrus atlantica,Ilex paraguariensis,3
+Cedrus atlantica,Juniperus virginiana,20
+Cedrus atlantica,Pistacia lentiscus,2
+Cedrus atlantica,Syzygium aromaticum,16
+Cedrus atlantica,Tectona grandis,4
+Chrysopogon zizanioides,Ilex paraguariensis,16
+Chrysopogon zizanioides,Juniperus virginiana,49
+Chrysopogon zizanioides,Pistacia lentiscus,32
+Chrysopogon zizanioides,Syzygium aromaticum,379
+Chrysopogon zizanioides,Tectona grandis,27
+Ilex paraguariensis,Juniperus virginiana,5
+Ilex paraguariensis,Pistacia lentiscus,1
+Ilex paraguariensis,Syzygium aromaticum,4
+Juniperus virginiana,Pistacia lentiscus,1
+Juniperus virginiana,Syzygium aromaticum,17
+Juniperus virginiana,Tectona grandis,2
+Pistacia lentiscus,Syzygium aromaticum,7
+Syzygium aromaticum,Tectona grandis,11
