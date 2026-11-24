@@ -1,0 +1,141 @@
+# Homeward · render settings for the Day 24 network plate.
+# Units are given beside each value. Colours are quoted because `#` starts a YAML comment.
+
+paths:
+  site_hours: data/processed/spring_2018_candidate_site_hours.csv   # output of the inventory notebook
+  city_intersections: data/raw/street_intersections.geojson          # City of Vancouver intersection points
+  osm_cache: data/raw/osm                                            # cached Overpass responses (ignored by Git)
+  output: outputs/homeward.png
+  preview: outputs/homeward_preview.png
+
+osm:
+  # Tried in order, each with exponential backoff while the public server is busy.
+  endpoints:
+    - https://overpass-api.de/api/interpreter
+    - https://maps.mail.ru/osm/tools/overpass/api/interpreter
+  retries: 4            # attempts per endpoint
+  backoff_s: 10         # first wait, doubled after each failure
+  timeout_s: 180
+  # Download box, degrees (south, west, north, east). Wider than the map so lines run off the edge.
+  bbox: [49.180, -123.240, 49.375, -122.980]
+  road_classes: [motorway, motorway_link, trunk, trunk_link, primary, primary_link,
+                 secondary, secondary_link, tertiary, tertiary_link, unclassified,
+                 residential, living_street, service]
+
+crs:
+  source: EPSG:4326
+  display: EPSG:26910   # NAD83 / UTM zone 10N, metres
+
+# Map extent in display CRS is derived from this centre and width; height follows the panel aspect.
+extent:
+  centre_lon: -123.108
+  centre_lat: 49.2685
+  width_km: 15.6
+
+selection:
+  local_start: "16:00"           # the composite hour chosen in the inventory notebook
+  statistic: median              # summary of each site's 16:00 counts across surveyed weekdays
+
+# Sites without catalogue coordinates in the inventory, with the source used to place them.
+coordinate_fills:
+  VAN/BURRARD BRIDGE / CORNWALL AV:
+    city_xstreet: BURRARD ST AND CORNWALL AV     # south end of Burrard Bridge
+  VAN/41ST AV / MARINE DR:
+    city_xstreet: W 41ST AV AND SW MARINE DRIVE
+  VAN/E 31ST AV / PRINCE EDWARD ST:
+    city_xstreet: E 31ST AV AND PRINCE EDWARD ST
+  VAN/1ST AV / BOUNDARY RD:
+    osm_crossing: [Boundary Road, East 1st Avenue]   # outside the city point layer
+
+labels:
+  bridge_value_gap_m: 120   # map distance between a bridge name and its count lines, metres
+
+bridges:
+  "BC bridge counters/P-15-1NS":
+    osm_name: Lions Gate Bridge
+    label: LIONS GATE
+    label_lonlat: [-123.1570, 49.3174]        # label anchor, degrees
+    label_ha: right
+  "BC bridge counters/P-15-2EW":
+    osm_name: Ironworkers Memorial Second Narrows Crossing
+    label: IRONWORKERS MEMORIAL
+    label_lonlat: [-123.0386, 49.2999]
+    label_ha: right
+
+palette:
+  background: "#0a0a0b"     # figure and water
+  land: "#16161a"
+  water_inland: "#0a0a0b"
+  coastline: "#3a3a40"
+  roads: "#8a8a90"
+  glow: "#fff1d6"           # warm white for measured traffic
+  core: "#ffffff"
+  text: "#e8e6e1"
+  muted: "#8d8b87"
+  rule: "#4a4946"
+
+# Road line widths, points. Major classes are drawn brighter.
+roads:
+  major: {classes: [motorway, trunk, primary], width_pt: 0.75, alpha: 0.62}
+  middle: {classes: [secondary, tertiary, motorway_link, trunk_link, primary_link, secondary_link, tertiary_link], width_pt: 0.5, alpha: 0.5}
+  minor: {classes: [residential, unclassified, living_street], width_pt: 0.3, alpha: 0.42}
+  service: {classes: [service], width_pt: 0.2, alpha: 0.2}
+
+glow:
+  layers: 9                   # number of halo strokes around each mark
+  halo_scale: 4.5             # outermost halo diameter as a multiple of the core
+  halo_alpha: 0.06            # alpha of each halo stroke (they accumulate)
+  # Intersections: dot area proportional to vehicles. Core diameter in points at reference count.
+  dot_reference_count: 5000
+  dot_reference_diameter_pt: 6.5
+  # Bridges: core stroke width proportional to vehicles.
+  line_reference_count: 10000
+  line_reference_width_pt: 4.4
+
+figure:
+  size_in: [9, 13]
+  dpi: 300
+  preview_width_px: 1080
+  # Map panel in figure fractions.
+  map_left: 0.050
+  map_right: 0.950
+  map_bottom: 0.200
+  map_top: 0.852
+
+# Type sizes in points, scaled by 9/13 from the skill's landscape defaults.
+type:
+  eyebrow: 16
+  title: 56
+  subtitle: 16
+  place: 15
+  place_small: 11.5
+  water: 13
+  bridge_label: 14
+  bridge_value: 12
+  legend_title: 13
+  legend: 12
+  footer: 11.5
+
+text:
+  eyebrow: "DAY 24  ·  NETWORK"
+  title: Homeward
+  subtitle: "Vancouver traffic counts  ·  weekdays 16:00–17:00, February–April 2018"
+  legend_title: "Median vehicles in the 16:00 hour"
+  footer:
+    - "Each glow is one site's median 16:00 count over its surveyed weekdays, 1 Feb – 30 Apr 2018."
+    - "Bridges count both directions; intersections count incoming vehicles. Sites are not additive."
+    - "Data: City of Vancouver VanMap · BC MoTI traffic counters · West Vancouver DataPoint ·"
+    - "roads and shoreline © OpenStreetMap contributors (ODbL)"
+  signature: "#30DayMapChallenge2026 · Jane Wang · janewyx11@gmail.com"
+
+# Geographic labels, anchored in degrees (lon, lat).
+places:
+  - {text: NORTH VANCOUVER, lonlat: [-123.0916, 49.3273], size: place}
+  - {text: WEST VANCOUVER, lonlat: [-123.1770, 49.3353], size: place_small}
+  - {text: VANCOUVER, lonlat: [-123.0674, 49.2558], size: place}
+  - {text: DOWNTOWN, lonlat: [-123.1459, 49.2940], size: place_small}
+  - {text: MARPOLE, lonlat: [-123.1360, 49.2122], size: place_small}
+water:
+  - {text: BURRARD INLET, lonlat: [-123.1081, 49.3111]}
+  - {text: ENGLISH BAY, lonlat: [-123.1850, 49.2832]}
+  - {text: FRASER RIVER, lonlat: [-123.0680, 49.2052]}
