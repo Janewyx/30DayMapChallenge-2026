@@ -36,17 +36,6 @@ uv pip install -r requirements.txt
 .venv/bin/python scripts/run_notebook.py
 ```
 
-The notebook reads the raw cache offline. Its three figures are embedded in the executed notebook. The raw publisher files stay outside Git.
-
-## Read the tables
-
-- Open [the executed notebook](afterglow_data_inventory.ipynb) for the source and coverage tables, date/hour rankings, figures and verdict.
-- [Source inventory](data/processed/source_inventory.csv) and [coverage](data/processed/coverage.csv) distinguish indexed locations, acquired measurements, complete hours and weekday PM coverage. The municipal studies and failed downloads remain in the record.
-- [Native observations](data/processed/native_observations.csv.gz) preserve turning movements and bridge road, direction and lane counts. Types of measurement overlap. Use [validated site-hours](data/processed/site_hours.csv.gz) for site totals. Site-hours count incoming vehicle turns at intersections and two-way traffic at bridges. Adding sites would count vehicles again as they travel.
-- [Directional-counter observations](data/processed/directional_hourly_observations.csv.gz) contain dated, per-direction short-term midblock counts. [Permanent-counter aggregates](data/processed/permanent_hourly_aggregates.csv.gz) preserve published month, hour and weekday/weekend groups. Both have different spatial or temporal support from the intersection comparison.
-- [Exact weekday overlap](data/processed/weekday_date_hour.csv), [clock-hour overlap across years](data/processed/weekday_clock_hour.csv) and [clock-hour overlap within each year](data/processed/weekday_clock_hour_by_year.csv) count distinct sites. Downtown and Marpole are included in the Vancouver column. [The 2018 candidate table](data/processed/spring_2018_candidate_site_hours.csv) retains every qualifying site-date in the selected hour, including repeat surveys.
-- [Sites](data/processed/sites.csv), [modern survey inventory](data/processed/vanmap_survey_inventory.csv), [historical report inventory](data/processed/historical_report_inventory.csv) and [download manifest](data/download_manifest.csv) trace observations back to their source. Preserve leading zeros by reading site identifiers as strings.
-
 ## Sources and limits
 
 Vancouver turn counts come from the legacy location index and VanMap attachments. The historical viewer returned HTTP 403. The acquisition uses a pinned public mirror of the original city HTML reports and a published link list. It parses the movement tables in the HTML, independently of previously derived CSV counts. The archived approach and lane fields support a conservative completeness check. [City intersection index](https://opendata.vancouver.ca/explore/dataset/intersection-traffic-movement-counts/) · [VanMap traffic layers](https://maps.vancouver.ca/server/rest/services/VanMapViewer/Traffic_and_Transportation/MapServer) · [Archived original HTML](https://github.com/e-n-f/vancouver-traffic-counts/tree/cf7880a1a65fe2b9ae262de228c33e767f8a3b63) · [Report-link list](https://github.com/erfanhajibandeh/tmc-scraper/tree/678eb41cbf130e901a9f7a1ab3aa92c906944249/data/scraped) · [City open-data licence](https://opendata.vancouver.ca/pages/licence/)
